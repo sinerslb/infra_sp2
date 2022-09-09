@@ -45,6 +45,16 @@ curl -X POST http://127.0.0.1:8000/api/v1/auth/token/
    -d '{"username": "string", "confirmation_code":"string"}'
 ```
 
+# Стек технологий
+
+Python 3.7
+Django 2.2.16
+Django REST framework 3.12.4
+Gunicorn 20.0.4
+Docker 3.8
+PostgreSQL 13.0
+Nginx 1.21.3
+
 # Авторы
 Александр Петров,
 Сергей Ларин,
